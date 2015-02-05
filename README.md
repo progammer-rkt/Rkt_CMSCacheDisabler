@@ -19,7 +19,7 @@ This module actually listening to an event `controller_action_predispatch_cms_pa
 
 For more details, please [look on this thread].
 
-# Supporting versions
+## Supporting versions
 
 This is tested only in `magento-1.9.1`. However it would work for almost all other versions which is greater than 1.4.
 
