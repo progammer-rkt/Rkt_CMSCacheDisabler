@@ -7,9 +7,11 @@ This is a magento extension which can be used to disable full page cacheing of a
 
 For the sake of illustration, suppose you have a cms page which is setup like this.
 
-![cms page](/../assets/img/cmspage.png?raw=true "Optional Title")
+![cms page](/../assets/img/cmspage.png)
 
 Now if you access the above cms page like this  : `www.yourdomain.com/testcms`, then you will see the cms page without having any cacheing.
+
+This module is inspired [from this stackexchang question]. This module is a reference for my answer there. Well the answer that is made by `programmer_rkt`.
 
 # Supporting versions
 
@@ -25,7 +27,7 @@ This is tested only in `magento-1.9.1`. However it would work for almost all oth
 
 3. Every files documented well.
 
-### cons
+### Cons
 
 nil
 
@@ -37,4 +39,6 @@ nil
 
 3. Clear all cache.
 
-4. DOne.
+4. Done.
+
+[from this stackexchang question]:http://magento.stackexchange.com/questions/54192/disabel-cache-in-cms-page-using-a-custom-module
