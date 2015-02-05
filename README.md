@@ -13,6 +13,12 @@ Now if you access the above cms page like this  : `www.yourdomain.com/testcms`, 
 
 This module is inspired [from this stackexchang question]. This module is a reference for my answer there. Well the answer that is made by `programmer_rkt`.
 
+# Theory
+
+This module actually listening to an event `controller_action_predispatch_cms_page_view` and disables cacheing for that page through the observer. The event that we observing will get triggered only when a cms page is trying to view.
+
+For more details, please [look on this thread].
+
 # Supporting versions
 
 This is tested only in `magento-1.9.1`. However it would work for almost all other versions which is greater than 1.4.
@@ -42,3 +48,4 @@ nil
 4. Done.
 
 [from this stackexchang question]:http://magento.stackexchange.com/questions/54192/disabel-cache-in-cms-page-using-a-custom-module
+[look on this thread]:http://magento.stackexchange.com/questions/54192/disabel-cache-in-cms-page-using-a-custom-module
